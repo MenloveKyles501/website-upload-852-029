@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>搜索 - 热播电影大全-热门影片片库-高清电影在线观看</title>
+  <meta name="description" content="汇总热播电影大全栏目，展示当前站内关注度较高的影片内容，分类清晰。" />
+  <meta name="keywords" content="热播电影大全,热门影片片库,热播电影,高清电影在线观看,热门影片,电影分类" />
+  <meta name="theme-color" content="#0b0b0f" />
+  <meta property="og:title" content="搜索 - 热播电影大全-热门影片片库-高清电影在线观看" />
+  <meta property="og:description" content="汇总热播电影大全栏目，展示当前站内关注度较高的影片内容，分类清晰。" />
+  <link rel="stylesheet" href="/assets/site.css" />
+  
+</head>
+<body class="">
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="/">
+          <span class="brand-mark">热</span>
+          <span class="brand-text">
+            <strong>热播电影大全</strong>
+            <small>高清电影在线观看</small>
+          </span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-label="切换导航">☰</button>
+        <nav class="nav-links" data-nav>
+          <a class="nav-link" href="/">首页</a>
+          <a class="nav-link" href="/categories.html">分类总览</a>
+          <a class="nav-link" href="/rank.html">排行榜</a>
+          <a class="nav-link active" href="/search.html">搜索</a>
+          <a class="nav-link" href="/category/china.html">国产</a>
+          <a class="nav-link" href="/category/japan-korea.html">日韩</a>
+          <a class="nav-link" href="/category/western.html">欧美</a>
+          <a class="nav-link" href="/category/other.html">其他</a>
+        </nav>
+      </div>
+    </header>
+    
+
+    <main class="container page-top main-stack">
+      <section class="panel intro-panel">
+        <span class="hero-kicker">搜索</span>
+        <h1>全站影片检索</h1>
+        <p>支持标题、地区、类型、标签、剧情简介与影评全文搜索。</p>
+        <div class="hero-actions">
+          <input class="search-input" type="search" placeholder="输入关键词开始搜索…" data-search-input />
+          <select class="search-select" data-region-filter>
+            <option value="all">全部地区</option>
+            <option value="国产">国产</option>
+            <option value="日韩">日韩</option>
+            <option value="欧美">欧美</option>
+            <option value="其他">其他</option>
+          </select>
+          <select class="search-select" data-type-filter>
+            <option value="all">全部类型</option>
+            <option value="电影">电影</option>
+            <option value="剧集">剧集</option>
+            <option value="动画">动画</option>
+            <option value="综艺">综艺</option>
+            <option value="纪录">纪录</option>
+          </select>
+        </div>
+      </section>
+      <section class="panel">
+        <div class="search-summary"><strong data-search-count>0</strong><span>条结果</span></div>
+        <div class="movie-grid search-results" data-search-results></div>
+      </section>
+    </main>
+    
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-brand">热播电影大全</div>
+          <p>汇总热播电影大全栏目，展示当前站内关注度较高的影片内容，分类清晰。</p>
+        </div>
+        <div>
+          <h4>站内导航</h4>
+          <a href="/categories.html">分类总览</a>
+          <a href="/rank.html">排行榜</a>
+          <a href="/search.html">搜索</a>
+        </div>
+        <div>
+          <h4>地区分类</h4>
+          <a href="/category/china.html">国产</a>
+          <a href="/category/japan-korea.html">日韩</a>
+          <a href="/category/western.html">欧美</a>
+          <a href="/category/other.html">其他</a>
+        </div>
+        <div>
+          <h4>影片类型</h4>
+          <a href="/type/movie.html">电影</a>
+          <a href="/type/series.html">剧集</a>
+          <a href="/type/animation.html">动画</a>
+          <a href="/type/variety.html">综艺</a>
+          <a href="/type/documentary.html">纪录</a>
+        </div>
+      </div>
+      <div class="container footer-note">
+        <span>内容基于上传素材自动生成的纯静态站点。</span>
+        <span>本站不含后台与数据库，全部页面可直接离线部署。</span>
+      </div>
+    </footer>
+    
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script type="module" src="/assets/site.js"></script>
+</body>
+</html>
